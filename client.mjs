@@ -7,7 +7,7 @@ const readLine = readline.createInterface({
     output: process.stdout
 });
 
-const usernameIn = new Promise(resolve => {
+const usernameIn = new Promise(resolve => { 
     readLine.question("Enter the username: ", answer => {
         resolve(answer);
     });
